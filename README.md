@@ -6,8 +6,10 @@ Design a shell that support the following function.
 4. File Redirection
 # Scenario
 ## Execution of commands
-> % printenv PATH
-> bin:.
+```shell=
+% printenv PATH
+bin:.
+```
 
 ## Ordinary Pipe
 > % removetag test.html | number
