@@ -11,7 +11,7 @@ Design a shell that support the following function.
 bin:.
 ```
 ## Ordinary Pipe
-```shell
+```
 % removetag test.html | number
 1
 2 Test
