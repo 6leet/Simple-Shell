@@ -6,7 +6,7 @@ Design a shell that support the following function.
 4. File Redirection
 # Scenario
 ## Execution of commands
-```shell
+```
 % printenv PATH
 bin:.
 ```
@@ -25,7 +25,7 @@ bin:.
 of the next N-th line.
 * !N means both STDOUT and STDERR of the left hand side command will be piped to the
 first command of the next N-th line.
-```shell
+```
 % removetag test.html |1 # pipe STDOUT to the first command of next line
 % number # STDIN is from the previous pipe (removetag)
 1
@@ -46,7 +46,7 @@ bin npshell test1.txt test2.txt test.html
 ```
 
 ## File Redirection
-```shell
+```
 > % cat test.html > test1.txt
 % cat test1.txt
 Test
